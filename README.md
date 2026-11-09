@@ -80,7 +80,7 @@ Su modelo ha sido puesto en producción. Cuenta con muestras mensuales de 100 re
 
 Usted tiene que procesar datos de texto provenientes de noticias en medios de prensa. Para cada noticia, usted debe generar un resumen que no supere las 50 palabras. Los datos se encuentran en la tabla *noticias* de la base de datos. Corresponde a un dataset con 10 filas.     
 
-Usted cuenta con una API key para utilizar un servicio llamado OpenRouter, que permite hacer inferencias de grandes modelos de lenguaje. Este [link](https://openrouter.ai/docs/quickstart) contiene un ejemplo de la documentación oficial, en el cual se muestra cómo usar el endpoint *responses* a través de *python*. 
+Usted cuenta con una API key para utilizar un servicio llamado OpenRouter, que permite hacer inferencias de grandes modelos de lenguaje. Este [link](https://openrouter.ai/docs/quickstart) dirije a la documentación oficial, donde encontrará un ejemplo de cómo usar el endpoint *responses* a través de *python*. 
 
 Considere las siguientes condiciones:
 - Esta es la API key para usar el servicio AGREGAR API KEY 
