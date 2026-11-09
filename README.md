@@ -80,7 +80,11 @@ Su modelo ha sido puesto en producción. Cuenta con muestras mensuales de 100 re
 
 ### Procesando texto
 
-Usted tiene que procesar datos de texto provenientes de noticias en medios de prensa. Para cada noticia, usted debe generar un resumen que no supere las 50 palabras. Los datos se encuentran en la tabla *noticias* de la base de datos. Corresponde a un dataset con 10 filas.     
+Usted tiene que procesar datos de texto provenientes de noticias en medios de prensa. Para cada noticia, usted debe generar un resumen que no supere las 50 palabras. Los datos se encuentran en la tabla *noticias* de la base de datos. Corresponde a un dataset con 10 filas. A continuación, se muestra un ejemplo de una fila:     
+
+| cuerpo | titular |
+|---|---|
+| el presidente del gobierno, pedro sánchez, comparecerá este martes en el palacio de la moncloa tras la reunión del consejo de ministros para informar del plan de recuperación, transformación y resiliencia de la economía tras la pandemia de coronavirus. este plan se analizará en una reunión posterior a la del consejo que celebrará la comisión creada al efecto y de la que forman parte todos los miembros del ejecutivo. tras informar en su comparecencia ante los medios, sánchez presentará el plan este miércoles ante el pleno del congreso, y será aprobado en una próxima reunión del consejo de ministros para ser enviado a bruselas antes del 30 de abril. | pedro sánchez comparece para explicar su plan de recuperación |
 
 Usted cuenta con una API key para utilizar un servicio llamado OpenRouter, que permite hacer inferencias de grandes modelos de lenguaje. Este [link](https://openrouter.ai/docs/quickstart) dirije a la documentación oficial, donde encontrará un ejemplo de cómo usar el endpoint *responses* a través de *python*. 
 
