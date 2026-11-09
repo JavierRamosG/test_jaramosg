@@ -36,13 +36,15 @@ Usted cuenta con un conjunto de datos sobre características del empleo de las p
 
 **El objetivo es construir un clasificador de texto para aprender a predecir la variables *cod_final*.**
 
-Para ello usted cuenta con una partición *train* y otra *test*. Los datos ya han sido preparados y se encuentran en las tablas **train** y **test** en una base de datos mysql. Los datos de la conexión son los siguientes:
+Para ello usted cuenta con una partición *train* y otra *test*. Los datos ya han sido preparados y se encuentran en las tablas **train** y **test** en una base de datos **mysql**. Los datos de la conexión son los siguientes:
 
 - host="sql.freedb.tech"
 - port=3306
 - user="u_y8tlWZ"
 - password="wSkxw3xbhsQg"
 - database="freedb_N4nnid0a"
+
+En python el paquete *mysql-connector-python* facilita la interacción con la base de datos, sin embargo, puede utilizar el paquete que usted prefiera.  
 
 
 Realice las siguientes tareas:
