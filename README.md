@@ -90,7 +90,12 @@ En su respuesta refiérase, al menos, a los siguientes aspectos:
 
 
 
-### Procesando texto (25 minutos)
+**¡Mucho éxito en la prueba!**
+
+### Bonus: Procesando texto
+
+**Si tiene tiempo, el siguiente ejercicio de programación le permitirá obtener una bonificación. El ejercicio NO es un sustituto de ninguno de los 3 anteriores, pero le ayudará a compensar, en caso de que no haya obtenido todo el puntaje en alguna de las repsuestas anteriores**
+
 
 Usted tiene que procesar datos de texto provenientes de noticias en medios de prensa. Para cada noticia, usted debe generar un resumen que no supere las 50 palabras. Los datos se encuentran en la tabla *noticias* de la base de datos. Corresponde a un dataset con 10 filas. A continuación, se muestra un ejemplo de una fila:     
 
