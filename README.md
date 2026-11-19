@@ -79,7 +79,7 @@ Su modelo ha sido puesto en producción. Cuenta con muestras mensuales de 100 re
 **Sugiera alguna hipótesis para explicar el comportamiento de los datos y elabore una estrategia (sin implementarla) para mitigar el problema. Justique con sus propias palabras cada uno de sus argumentos**  
 
 
-### Procesando texto (25 minutos)
+### Procesando texto (10 minutos)
 
 Usted tiene que procesar datos de texto provenientes de noticias en medios de prensa. Para cada noticia, usted debe generar un resumen que no supere las 50 palabras. Los datos se encuentran en la tabla *noticias* de la base de datos. Corresponde a un dataset con 10 filas. A continuación, se muestra un ejemplo de una fila:     
 
@@ -103,12 +103,9 @@ Considere las siguientes condiciones:
 1) Descargue la tabla *noticias* de la base de datos
 2) Genere una columna o lista *resumen* que contenga el resumen de cada texto.    
 
-**¡Mucho éxito!**
 
+### Cuéntanos sobre un proyecto (15 minutos)
 
-### Bonus: cuéntanos sobre un proyecto
-
-**Si tiene tiempo, la siguiente pregunta le permitirá obtener una bonificación. El ejercicio NO es un sustituto de ninguno de los 3 anteriores, pero le ayudará a compensar, en caso de que no haya obtenido todo el puntaje en alguna de las respuestas anteriores**
 
 Nos interesa conocer su experiencia trabajando con clasificadores de texto, arquitectura RAG u otro uso de LLM para el procesamiento de texto.  
 
@@ -120,6 +117,6 @@ En su respuesta refiérase, al menos, a los siguientes aspectos:
 
 
 
-
+**¡Mucho éxito!**
 
 
