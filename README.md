@@ -98,7 +98,7 @@ Considere las siguientes condiciones:
 ```   
  response.json()["output"][0]["content"][0]["text"]
 ```
-Genere un código que ejecute las siguientes tareas:
+**Genere un código que ejecute las siguientes tareas**:
 
 1) Descargue la tabla *noticias* de la base de datos
 2) Genere una columna o lista *resumen* que contenga el resumen de cada texto.    
