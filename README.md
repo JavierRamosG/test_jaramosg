@@ -21,7 +21,7 @@ git@github.com:inesscc/prueba-tecnica.git
 En él encontrará las instrucciones para la prueba y algunos archivos que tendrá que utilizar para responder las preguntas. 
 
 
-### Clasificando texto (45 minutos)
+### Clasificando texto (44 minutos)
 
 Usted cuenta con un conjunto de datos sobre características del empleo de las personas. Cada uno de estos empleos está asociado a un código. A continuación, se muestra un ejemplo de algunos datos:     
 
@@ -34,7 +34,7 @@ Usted cuenta con un conjunto de datos sobre características del empleo de las p
 | 7 | guardias seguridad y proteccion | administrador de contrato | administrar dirigir contratar personal | 80 |
 
 
-**El objetivo es construir un clasificador de texto para aprender a predecir la variables *cod_final*.**
+**IMPORTANE: El objetivo es construir un clasificador de texto para aprender a predecir la variables *cod_final*. Usted cuenta con poco tiempo. No destine tiempo a la optimización del desempeño**
 
 Para ello usted cuenta con una partición *train* y otra *test*. Los datos ya han sido preparados y se encuentran en las tablas **train** y **test** en una base de datos **mysql**. Los datos de la conexión son los siguientes:
 
