@@ -79,23 +79,7 @@ Su modelo ha sido puesto en producción. Cuenta con muestras mensuales de 100 re
 **Sugiera alguna hipótesis para explicar el comportamiento de los datos y elabore una estrategia (sin implementarla) para mitigar el problema. Justique con sus propias palabras cada uno de sus argumentos**  
 
 
-### Cuéntanos sobre un proyecto (25 minutos)
-
-Nos interesa conocer su experiencia trabajando con clasificadores de texto, arquitectura RAG u otro uso de LLM para el procesamiento de texto.  
-
-En su respuesta refiérase, al menos, a los siguientes aspectos:
-- Problema de negocio que estaba tratando de resolver (¿Cuál es la tarea que se quiere automatizar?) 
-- Estrategia utilizada para resolverlo (¿Cuál es el enfoque, modelo o arquitectura que se utilizó?) 
-- Reflexión y aprendizaje (¿Qué consejo darías a alguien que está comenzado con un problema similar?)
-
-
-
-**¡Mucho éxito en la prueba!**
-
-### Bonus: Procesando texto
-
-**Si tiene tiempo, el siguiente ejercicio de programación le permitirá obtener una bonificación. El ejercicio NO es un sustituto de ninguno de los 3 anteriores, pero le ayudará a compensar, en caso de que no haya obtenido todo el puntaje en alguna de las repsuestas anteriores**
-
+### Procesando texto (25 minutos)
 
 Usted tiene que procesar datos de texto provenientes de noticias en medios de prensa. Para cada noticia, usted debe generar un resumen que no supere las 50 palabras. Los datos se encuentran en la tabla *noticias* de la base de datos. Corresponde a un dataset con 10 filas. A continuación, se muestra un ejemplo de una fila:     
 
@@ -114,10 +98,28 @@ Considere las siguientes condiciones:
 ```   
  response.json()["output"][0]["content"][0]["text"]
 ```
-Realice las siguientes tareas:
+Genere un código que ejecute las siguientes tareas:
 
-1) Descargue la tabla noticias de la base de datos
-2) Genere una columna *resumen* que contenga el resumen de cada texto.    
-
+1) Descargue la tabla *noticias* de la base de datos
+2) Genere una columna o lista *resumen* que contenga el resumen de cada texto.    
 
 **¡Mucho éxito!**
+
+
+### Bonus: cuéntanos sobre un proyecto
+
+**Si tiene tiempo, la siguiente pregunta le permitirá obtener una bonificación. El ejercicio NO es un sustituto de ninguno de los 3 anteriores, pero le ayudará a compensar, en caso de que no haya obtenido todo el puntaje en alguna de las respuestas anteriores**
+
+Nos interesa conocer su experiencia trabajando con clasificadores de texto, arquitectura RAG u otro uso de LLM para el procesamiento de texto.  
+
+En su respuesta refiérase, al menos, a los siguientes aspectos:
+- Problema de negocio que estaba tratando de resolver (¿Cuál es la tarea que se quiere automatizar?) 
+- Estrategia utilizada para resolverlo (¿Cuál es el enfoque, modelo o arquitectura que se utilizó?) 
+- Reflexión y aprendizaje (¿Qué consejo darías a alguien que está comenzado con un problema similar?)
+
+
+
+
+
+
+
