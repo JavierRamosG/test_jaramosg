@@ -90,7 +90,7 @@ Usted tiene que procesar datos de texto provenientes de noticias en medios de pr
 Usted cuenta con una API key para utilizar un servicio llamado OpenRouter, que permite hacer inferencias de grandes modelos de lenguaje. Este [link](https://openrouter.ai/docs/quickstart) dirije a la documentación oficial, donde encontrará un ejemplo de cómo usar el endpoint *responses* a través de *python*. 
 
 Considere las siguientes condiciones:
-- Esta es la API key para usar el servicio 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 
+- La API key se encuentra en [este archivo](https://1drv.ms/t/c/3ba457a6b989f5e0/IQDYUbsfa5KwRabKDXrJB9GGAY6PvDqj2Vhr9u0H_xcoNRg?e=3TGQPe)  
 - Debe utilizar el modelo **google/gemini-2.5-flash-lite** para resolver la tarea.
 - Debe desactivar el razonamiento, para minimizar costos
 - El resultado está contenido en el *text* de un elemento *output* 
